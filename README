@@ -1,0 +1,13 @@
+To run this program, make sure python 3.9.1 and npm is installed and activated. Pip install all the requirements in the requirements.txt
+
+Then, in this directory, run:
+
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver 127.0.0.1:8000
+
+In another command window, navigate to /frontend, run
+
+npm run dev
+
+
